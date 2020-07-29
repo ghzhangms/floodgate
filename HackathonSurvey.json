@@ -1,0 +1,104 @@
+{
+  "campaigns": [
+    {
+      "CampaignId": "79700000-3c67-825d-b25f-b72053627253",
+      "NominationScheme": {
+        "Type": 0,
+        "NominationPeriod": {
+          "Type": 0,
+          "IntervalSeconds": 2592000
+        },
+        "CooldownPeriod": {
+          "Type": 0,
+          "IntervalSeconds": 7776000
+        },
+        "PercentageNumerator": 100,
+        "PercentageDenominator": 100
+      },
+      "SurveyTemplate": {
+        "Type": 2,
+        "ActivationEvent": {
+          "Type": 2,
+          "Sequence": [
+            {
+              "Type": 1,
+              "Activity": "ToolbarVisibleCount",
+              "Count": 1,
+              "IsAggregate": false
+            }
+          ]
+        },
+        "PreferredLaunchType": 2,
+        "RequiredLauncherType": 1,
+        "Content": {
+          "Prompt": [
+            {
+              "Type": 1,
+              "Title": {
+                "Type": 1,
+                "Value": "We'd love your feedback! [From HACKATHON 2020]"
+              },
+              "Question": {
+                "Type": 1,
+                "Value": "We have just two questions for you."
+              },
+              "YesLabel": {
+                "Type": 1,
+                "Value": "Sure"
+              },
+              "NoLabel": {
+                "Type": 1,
+                "Value": "Not now"
+              }
+            }
+          ],
+          "Rating": [
+            {
+              "Type": 3,
+              "Question": {
+                "Type": 1,
+                "Value": "How likely are you to recommend Word to others, if asked? [From HACKATHON 2020]"
+              },
+              "RatingValuesAscending": [
+                {
+                  "Type": 1,
+                  "Value": "1 - Not at all likely"
+                },
+                {
+                  "Type": 1,
+                  "Value": "2"
+                },
+                {
+                  "Type": 1,
+                  "Value": "3"
+                },
+                {
+                  "Type": 1,
+                  "Value": "4"
+                },
+                {
+                  "Type": 1,
+                  "Value": "5 - Extremely likely"
+                }
+              ]
+            }
+          ],
+          "Question": [
+            {
+              "Type": 2,
+              "Question": {
+                "Type": 1,
+                "Value": "Please tell us more. Why did you choose that answer?"
+              }
+            }
+          ]
+        }
+      },
+      "GovernedChannelType": 1,
+      "StartTimeUtc": "2018-07-30T00:00:00.0Z",
+      "EndTimeUtc": "2028-01-01T23:59:59.9Z",
+      "PrimaryPriority": 1,
+      "AdditionalDataRequested": [ 2 ]
+    }
+  ]
+}
