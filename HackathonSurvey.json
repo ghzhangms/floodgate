@@ -36,11 +36,11 @@
               "Type": 1,
               "Title": {
                 "Type": 1,
-                "Value": "Hello from Hackathon. We'd love your feedback!"
+                "Value": "Hello from GitHub. We'd love your feedback!"
               },
               "Question": {
                 "Type": 1,
-                "Value": "We have just a few questions for you."
+                "Value": "[GitHub] We have just a few questions for you."
               },
               "YesLabel": {
                 "Type": 1,
@@ -97,7 +97,7 @@
       "GovernedChannelType": 1,
       "StartTimeUtc": "2018-07-30T00:00:00.0Z",
       "EndTimeUtc": "2028-01-01T23:59:59.9Z",
-      "PrimaryPriority": 1,
+      "PrimaryPriority": 0,
       "AdditionalDataRequested": [ 2 ]
     }
   ]
